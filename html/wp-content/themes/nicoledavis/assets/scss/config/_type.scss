@@ -1,0 +1,153 @@
+h1 {
+  font-family: 'Clearface';
+  font-size: 24px;
+  line-height: 24px;
+  @include smoothing;
+  color: $black;
+}
+
+h2 {
+	font-family: 'Blair';
+	font-size: 10px;
+  @include smoothing;
+  color: $black;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Clearface';
+  font-size: 24px;
+  line-height: 36px;
+  @include smoothing;
+  color: $black;
+}
+
+a{
+  color: $black;
+  @include smoothing;
+}
+
+
+
+
+
+
+
+
+
+// @mixin ty-copy {
+// 	font-family: 'Sequencia Regular';
+// 	font-size: get-vw(18px);
+// 	line-height: get-vw(25px);
+// 	@include smoothing;
+// 	@include max-width {
+// 		font-size: 18px;
+// 		line-height: 25px;
+// 	}
+// }
+
+// @mixin ty-greeting {
+// 	font-family: 'Sequencia Bold';
+// 	text-transform: uppercase;
+// 	@include kerning(-40);
+// 	font-size: get-vw(40px);
+// 	line-height: get-vw(40px);
+// 	@include smoothing;
+// 	@include max-width {
+// 		top: 274px;
+// 		font-size: 40px;
+// 		line-height: 40px;
+// 	}
+// }
+
+// @mixin ty-sm-h {
+// 	@include ty-copy;
+// 	text-transform: uppercase;
+// }
+
+// @mixin ty-lg-h {
+// 	font-family: 'Brown Regular';
+// 	font-size: get-vw(35px);
+// 	line-height: get-vw(40px);
+// 	@include smoothing;
+// 	@include max-width {
+// 		font-size: 35px;
+// 		line-height: 40px;
+// 	}
+// }
+
+// @mixin ty-lg-label {
+// 	font-family: 'Sequencia Regular';
+// 	text-transform: uppercase;
+// 	font-size: get-vw(35px);
+// 	line-height: get-vw(35px);
+// 	@include smoothing;
+// 	@include max-width {
+// 		font-size: 35px;
+// 		line-height: 35px;
+// 	}
+// }
+
+// @mixin ty-sm-label {
+// 	font-family: 'Sequencia Regular';
+// 	text-transform: uppercase;
+// 	font-size: get-vw(15px);
+// 	line-height: get-vw(15px);
+// 	@include smoothing;
+// 	@include max-width {
+// 		font-size: 15px;
+// 		line-height: 15px;
+// 	}
+// }
+
+// @mixin ty-sm-label-alt {
+// 	font-family: 'Brown Regular';
+// 	font-size: get-vw(20px);
+// 	line-height: get-vw(22px);
+// 	@include smoothing;
+// 	@include max-width {
+// 		font-size: 20px;
+// 		line-height: 22px;
+// 	}
+// }
+
+// @mixin ty-sm-label-bold {
+// 	font-family: 'Brown Bold';
+// 	font-size: get-vw(20px);
+// 	line-height: get-vw(22px);
+// 	@include smoothing;
+// 	@include max-width {
+// 		font-size: 20px;
+// 		line-height: 22px;
+// 	}
+// }
+
+// h3 {
+// 	@include ty-sm-h;
+// 	text-align: center;
+// 	margin-bottom: get-vw(7px);
+
+// 	@include max-width {
+// 		margin-bottom: 7px;
+// 	}
+// }
+
+// .name-and-title {
+// 	margin-bottom: get-vw(10px);
+
+// 	@include max-width {
+// 		margin-bottom: 10px;
+// 	}
+
+// 	.name {
+// 		@include ty-sm-label-bold;
+// 	}
+
+// 	.title {
+// 		@include ty-sm-label-alt;
+// 	}
+// }
+
+// .note {
+// 	@include ty-copy;
+// }

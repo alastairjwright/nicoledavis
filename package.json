@@ -1,0 +1,23 @@
+{
+	"name": "BBH-Welcome",
+	"version": "1.0.1",
+	"description": "BBH Welcome Website",
+	"author": "Domani Studios",
+	"private": true,
+	"devDependencies": {
+		"gulp": "^3.9.0",
+		"gulp-autoprefixer": "*",
+		"gulp-combine-media-queries": "*",
+		"gulp-sourcemaps": "^1.6.0",
+		"gulp-concat": "*",
+		"gulp-css-globbing": "^0.1.8",
+		"gulp-csscomb": "*",
+		"gulp-minify-css": "*",
+		"gulp-notify": "*",
+		"gulp-order": "*",
+		"gulp-plumber": "*",
+		"gulp-rename": "*",
+		"gulp-sass": "*",
+		"gulp-uglify": "*"
+	}
+}

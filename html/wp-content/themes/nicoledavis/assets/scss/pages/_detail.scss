@@ -1,0 +1,46 @@
+.single-post{
+  .site-main{
+    padding: 0 (10px / 975px * 100%);
+  }
+
+  .entry-content{
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .entry-hero{
+    margin-bottom: 60px;
+  }
+
+  .entry-copy{
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  .entry-description{
+    width: 631px / 955px * 100%;
+  }
+
+  .entry-list{
+    width: 224px / 955px * 100%;
+    margin-left: 102px / 955px * 100%;
+
+    p{
+      font-family: 'Blair';
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 20px;
+      @include smoothing;
+      display: block;
+    }
+  }
+
+  .entry-gallery{
+    img{
+      margin: 0 0 50px;
+    }
+  }
+}
