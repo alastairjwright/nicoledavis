@@ -32,8 +32,8 @@
 						<?php endif; ?>
 					</div>
 
-					<div class="entry-grid">
-
+					<div class="work-grid">
+						<?php get_template_part( 'template-parts/content-posts' ); ?>
 					</div>
 				</div><!-- .entry-content -->
 
