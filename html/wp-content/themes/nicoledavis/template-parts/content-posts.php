@@ -2,6 +2,10 @@
 
 $posts = get_field('work_posts', 5);
 
+// print_r($posts);
+
+// die;
+
 if( $posts ): ?>
 
 	<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>

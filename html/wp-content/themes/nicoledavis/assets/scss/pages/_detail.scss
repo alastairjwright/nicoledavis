@@ -42,10 +42,14 @@
   padding: 0 (10px / 975px * 100%);
   margin: 0 0 100px;
 
-  img{
+  img, video{
     margin: 0 0 50px;
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  video{
+    cursor: pointer;
   }
 }

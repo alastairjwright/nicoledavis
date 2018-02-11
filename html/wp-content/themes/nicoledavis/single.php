@@ -22,12 +22,22 @@
 					<div class="entry-gallery">
 						<?php
 
-						$images = get_field('project_images');
+						$gallery = get_field('project_images');
 						$size = 'full'; // (thumbnail, medium, large, full or custom size)
 
-						if( $images ): ?>
-							<?php foreach( $images as $image ): ?>
-								<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+						if( $gallery ): ?>
+							<?php foreach( $gallery as $gallery_item ): ?>
+								<?php if($gallery_item['type'] == 'image') : ?>
+									<?php echo wp_get_attachment_image( $gallery_item['ID'], $size ); ?>
+								<?php endif; ?>
+
+								<?php if($gallery_item['type'] == 'video') : ?>
+									<video>
+									  <source src="<?php echo $gallery_item['url']; ?>" type="video/mp4">
+									  Your browser does not support HTML5 video.
+									</video>
+								<?php endif; ?>
+
 							<?php endforeach; ?>
 						<?php endif; ?>
 					</div>

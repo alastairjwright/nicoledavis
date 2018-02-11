@@ -1,0 +1,8 @@
+[10-Oct-2017 06:46:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ndavis/public_html/wp-content/themes/nicoledavis/404.php on line 10
+[10-Oct-2017 07:26:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ndavis/public_html/wp-content/themes/nicoledavis/404.php on line 10
+[11-Oct-2017 03:16:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ndavis/public_html/wp-content/themes/nicoledavis/archive.php on line 10
+[13-Oct-2017 05:17:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ndavis/public_html/wp-content/themes/nicoledavis/archive.php on line 10
+[16-Oct-2017 06:38:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ndavis/public_html/wp-content/themes/nicoledavis/index.php on line 15
+[17-Oct-2017 10:34:37 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/ndavis/public_html/wp-content/themes/nicoledavis/header.php on line 2
+[18-Oct-2017 10:56:29 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/ndavis/public_html/wp-content/themes/nicoledavis/header.php on line 2
+[19-Oct-2017 07:02:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ndavis/public_html/wp-content/themes/nicoledavis/index.php on line 15
